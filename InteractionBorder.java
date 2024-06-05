@@ -35,5 +35,4 @@ public class InteractionBorder extends Rectangle implements Serializable {
         setStroke(Color.CHOCOLATE); // set the color of the border
         setStrokeWidth(4); // set the width of the border
     }
-
 }
