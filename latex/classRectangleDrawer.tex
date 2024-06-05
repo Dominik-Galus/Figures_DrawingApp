@@ -1,0 +1,114 @@
+\hypertarget{classRectangleDrawer}{}\doxysection{Rectangle\+Drawer Class Reference}
+\label{classRectangleDrawer}\index{RectangleDrawer@{RectangleDrawer}}
+
+
+Inheritance diagram for Rectangle\+Drawer\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=182pt]{classRectangleDrawer__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Rectangle\+Drawer\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{classRectangleDrawer__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classRectangleDrawer_af0ea74936126bab995b87787d23e86ae}{Rectangle\+Drawer}} (Pane pane)
+\item 
+void \mbox{\hyperlink{classRectangleDrawer_a63d1d26e7f2c7312219c951479276114}{start\+Drawing}} (Mouse\+Event e)
+\item 
+void \mbox{\hyperlink{classRectangleDrawer_a2faedc43d0d63cfbdb4e872e0ef4a845}{continue\+Drawing}} (Mouse\+Event e)
+\item 
+void \mbox{\hyperlink{classRectangleDrawer_a09150dd47a8ba7620346d7bd64905774}{stop\+Drawing}} (Mouse\+Event e)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classRectangleDrawer_a63f07d3e47f1b049e011f296bb063af7}\label{classRectangleDrawer_a63f07d3e47f1b049e011f296bb063af7}} 
+Rectangle {\bfseries rectangle} = null
+\item 
+\mbox{\Hypertarget{classRectangleDrawer_a611905dee035e59b4804a2f7bfb60950}\label{classRectangleDrawer_a611905dee035e59b4804a2f7bfb60950}} 
+double {\bfseries initialX}
+\item 
+\mbox{\Hypertarget{classRectangleDrawer_a4884fc10b5804bd58f990a464d6a4c82}\label{classRectangleDrawer_a4884fc10b5804bd58f990a464d6a4c82}} 
+double {\bfseries initialY}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+A class that represents a drawer of a rectangle shape. This class extends the \mbox{\hyperlink{classDrawer}{Drawer}} class. This class is used to create a rectangle shape on the drawing area. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classRectangleDrawer_af0ea74936126bab995b87787d23e86ae}\label{classRectangleDrawer_af0ea74936126bab995b87787d23e86ae}} 
+\index{RectangleDrawer@{RectangleDrawer}!RectangleDrawer@{RectangleDrawer}}
+\index{RectangleDrawer@{RectangleDrawer}!RectangleDrawer@{RectangleDrawer}}
+\doxysubsubsection{\texorpdfstring{RectangleDrawer()}{RectangleDrawer()}}
+{\footnotesize\ttfamily Rectangle\+Drawer.\+Rectangle\+Drawer (\begin{DoxyParamCaption}\item[{Pane}]{pane }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructor of the \mbox{\hyperlink{classRectangleDrawer}{Rectangle\+Drawer}} class. With the given drawing area, the constructor initializes the drawing area. 
+\begin{DoxyParams}{Parameters}
+{\em pane} & The drawing area. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classRectangleDrawer_a2faedc43d0d63cfbdb4e872e0ef4a845}\label{classRectangleDrawer_a2faedc43d0d63cfbdb4e872e0ef4a845}} 
+\index{RectangleDrawer@{RectangleDrawer}!continueDrawing@{continueDrawing}}
+\index{continueDrawing@{continueDrawing}!RectangleDrawer@{RectangleDrawer}}
+\doxysubsubsection{\texorpdfstring{continueDrawing()}{continueDrawing()}}
+{\footnotesize\ttfamily void Rectangle\+Drawer.\+continue\+Drawing (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Continue drawing a rectangle when the mouse is dragged. 
+\begin{DoxyParams}{Parameters}
+{\em e} & The mouse event. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classDrawer}{Drawer}}.
+
+\mbox{\Hypertarget{classRectangleDrawer_a63d1d26e7f2c7312219c951479276114}\label{classRectangleDrawer_a63d1d26e7f2c7312219c951479276114}} 
+\index{RectangleDrawer@{RectangleDrawer}!startDrawing@{startDrawing}}
+\index{startDrawing@{startDrawing}!RectangleDrawer@{RectangleDrawer}}
+\doxysubsubsection{\texorpdfstring{startDrawing()}{startDrawing()}}
+{\footnotesize\ttfamily void Rectangle\+Drawer.\+start\+Drawing (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Start drawing a rectangle when the mouse is pressed. 
+\begin{DoxyParams}{Parameters}
+{\em e} & The mouse event. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classDrawer}{Drawer}}.
+
+\mbox{\Hypertarget{classRectangleDrawer_a09150dd47a8ba7620346d7bd64905774}\label{classRectangleDrawer_a09150dd47a8ba7620346d7bd64905774}} 
+\index{RectangleDrawer@{RectangleDrawer}!stopDrawing@{stopDrawing}}
+\index{stopDrawing@{stopDrawing}!RectangleDrawer@{RectangleDrawer}}
+\doxysubsubsection{\texorpdfstring{stopDrawing()}{stopDrawing()}}
+{\footnotesize\ttfamily void Rectangle\+Drawer.\+stop\+Drawing (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Stop drawing a rectangle when the mouse is released. 
+\begin{DoxyParams}{Parameters}
+{\em e} & The mouse event. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classDrawer}{Drawer}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Rectangle\+Drawer.\+java\end{DoxyCompactItemize}

@@ -1,0 +1,92 @@
+\hypertarget{classMyCircle}{}\doxysection{My\+Circle Class Reference}
+\label{classMyCircle}\index{MyCircle@{MyCircle}}
+
+
+Inheritance diagram for My\+Circle\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{classMyCircle__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for My\+Circle\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=279pt]{classMyCircle__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classMyCircle_a3ccecd0aedb9e329e6432bbb005f1088}{My\+Circle}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classMyCircle_a38e2271efe996a215630f95aaf438f9e}{write\+Object}} (Object\+Output\+Stream s)  throws IOException 
+\item 
+void \mbox{\hyperlink{classMyCircle_a879599198b91c6694259b6f06027b59a}{read\+Object}} (Object\+Input\+Stream s)  throws IOException, Class\+Not\+Found\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classMyCircle_aa8b72ede2c54f62cf9d87bae6890a568}\label{classMyCircle_aa8b72ede2c54f62cf9d87bae6890a568}} 
+Color {\bfseries color}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A class that represents a circle shape. This class extends the Circle class and implements the Serializable interface. This class is used to create a circle shape that can be serialized and deserialized. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classMyCircle_a3ccecd0aedb9e329e6432bbb005f1088}\label{classMyCircle_a3ccecd0aedb9e329e6432bbb005f1088}} 
+\index{MyCircle@{MyCircle}!MyCircle@{MyCircle}}
+\index{MyCircle@{MyCircle}!MyCircle@{MyCircle}}
+\doxysubsubsection{\texorpdfstring{MyCircle()}{MyCircle()}}
+{\footnotesize\ttfamily My\+Circle.\+My\+Circle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructor of the \mbox{\hyperlink{classMyCircle}{My\+Circle}} class. Initializes the stroke color to black and the fill color to white. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classMyCircle_a879599198b91c6694259b6f06027b59a}\label{classMyCircle_a879599198b91c6694259b6f06027b59a}} 
+\index{MyCircle@{MyCircle}!readObject@{readObject}}
+\index{readObject@{readObject}!MyCircle@{MyCircle}}
+\doxysubsubsection{\texorpdfstring{readObject()}{readObject()}}
+{\footnotesize\ttfamily void My\+Circle.\+read\+Object (\begin{DoxyParamCaption}\item[{Object\+Input\+Stream}]{s }\end{DoxyParamCaption}) throws IOException, Class\+Not\+Found\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Reads the state of the circle from an Object\+Input\+Stream during deserialization. The state includes the center, radius, layout x and y, scale x and y, and color. 
+\begin{DoxyParams}{Parameters}
+{\em s} & The Object\+Input\+Stream from which to read the state. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em IOException} & If an I/O error occurs while reading from the Object\+Input\+Stream. \\
+\hline
+{\em Class\+Not\+Found\+Exception} & If the class of a serialized object cannot be found. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classMyCircle_a38e2271efe996a215630f95aaf438f9e}\label{classMyCircle_a38e2271efe996a215630f95aaf438f9e}} 
+\index{MyCircle@{MyCircle}!writeObject@{writeObject}}
+\index{writeObject@{writeObject}!MyCircle@{MyCircle}}
+\doxysubsubsection{\texorpdfstring{writeObject()}{writeObject()}}
+{\footnotesize\ttfamily void My\+Circle.\+write\+Object (\begin{DoxyParamCaption}\item[{Object\+Output\+Stream}]{s }\end{DoxyParamCaption}) throws IOException\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Writes the state of the circle to an Object\+Output\+Stream during serialization. The state includes the center, radius, layout x and y, scale x and y, color, stroke width, and translation. 
+\begin{DoxyParams}{Parameters}
+{\em s} & The Object\+Output\+Stream to which to write the state. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em IOException} & If an I/O error occurs while writing to the Object\+Output\+Stream. \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+My\+Circle.\+java\end{DoxyCompactItemize}

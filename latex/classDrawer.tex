@@ -1,0 +1,95 @@
+\hypertarget{classDrawer}{}\doxysection{Drawer Class Reference}
+\label{classDrawer}\index{Drawer@{Drawer}}
+
+
+Inheritance diagram for Drawer\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDrawer__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Drawer\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{classDrawer__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classDrawer_acc25552094f4427662a1d7a767f742f5}{Drawer}} (Pane pane)
+\item 
+abstract void \mbox{\hyperlink{classDrawer_a8ac86f89411499d80c8b9a3cd3ed4291}{start\+Drawing}} (Mouse\+Event e)
+\item 
+abstract void \mbox{\hyperlink{classDrawer_a6f5b29f9b3d468592b21eed33a785358}{continue\+Drawing}} (Mouse\+Event e)
+\item 
+abstract void \mbox{\hyperlink{classDrawer_ad2692e80242c52d0e56563efd080ce9d}{stop\+Drawing}} (Mouse\+Event e)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classDrawer_a8e4d3c771cb39dac803d626bc03d7d85}\label{classDrawer_a8e4d3c771cb39dac803d626bc03d7d85}} 
+Color {\bfseries selected\+Color}
+\item 
+\mbox{\Hypertarget{classDrawer_a63e703c51c76beb3956c88f7408f47de}\label{classDrawer_a63e703c51c76beb3956c88f7408f47de}} 
+Pane {\bfseries pane}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A class that represents a drawer. This class is used to create a drawer to draw shapes on the drawing area. The selected color and the drawing area are stored in this class. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classDrawer_acc25552094f4427662a1d7a767f742f5}\label{classDrawer_acc25552094f4427662a1d7a767f742f5}} 
+\index{Drawer@{Drawer}!Drawer@{Drawer}}
+\index{Drawer@{Drawer}!Drawer@{Drawer}}
+\doxysubsubsection{\texorpdfstring{Drawer()}{Drawer()}}
+{\footnotesize\ttfamily Drawer.\+Drawer (\begin{DoxyParamCaption}\item[{Pane}]{pane }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructor of the \mbox{\hyperlink{classDrawer}{Drawer}} class. 
+\begin{DoxyParams}{Parameters}
+{\em pane} & The drawing area. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDrawer_a6f5b29f9b3d468592b21eed33a785358}\label{classDrawer_a6f5b29f9b3d468592b21eed33a785358}} 
+\index{Drawer@{Drawer}!continueDrawing@{continueDrawing}}
+\index{continueDrawing@{continueDrawing}!Drawer@{Drawer}}
+\doxysubsubsection{\texorpdfstring{continueDrawing()}{continueDrawing()}}
+{\footnotesize\ttfamily abstract void Drawer.\+continue\+Drawing (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{classCircleDrawer_ab3377d9b70bcd94c87906838dc508722}{Circle\+Drawer}}, \mbox{\hyperlink{classRectangleDrawer_a2faedc43d0d63cfbdb4e872e0ef4a845}{Rectangle\+Drawer}}, and \mbox{\hyperlink{classTriangleDrawer_aecef1e17e7f19f05f5d63fb38fd55883}{Triangle\+Drawer}}.
+
+\mbox{\Hypertarget{classDrawer_a8ac86f89411499d80c8b9a3cd3ed4291}\label{classDrawer_a8ac86f89411499d80c8b9a3cd3ed4291}} 
+\index{Drawer@{Drawer}!startDrawing@{startDrawing}}
+\index{startDrawing@{startDrawing}!Drawer@{Drawer}}
+\doxysubsubsection{\texorpdfstring{startDrawing()}{startDrawing()}}
+{\footnotesize\ttfamily abstract void Drawer.\+start\+Drawing (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{classCircleDrawer_a2ecb525b27622db2dfc198ceb8999648}{Circle\+Drawer}}, \mbox{\hyperlink{classRectangleDrawer_a63d1d26e7f2c7312219c951479276114}{Rectangle\+Drawer}}, and \mbox{\hyperlink{classTriangleDrawer_aa81c31e714741a92816fa7e456aad11f}{Triangle\+Drawer}}.
+
+\mbox{\Hypertarget{classDrawer_ad2692e80242c52d0e56563efd080ce9d}\label{classDrawer_ad2692e80242c52d0e56563efd080ce9d}} 
+\index{Drawer@{Drawer}!stopDrawing@{stopDrawing}}
+\index{stopDrawing@{stopDrawing}!Drawer@{Drawer}}
+\doxysubsubsection{\texorpdfstring{stopDrawing()}{stopDrawing()}}
+{\footnotesize\ttfamily abstract void Drawer.\+stop\+Drawing (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{classCircleDrawer_ac3d82342b5061dfd4f6f41fa8c7d4b06}{Circle\+Drawer}}, \mbox{\hyperlink{classRectangleDrawer_a09150dd47a8ba7620346d7bd64905774}{Rectangle\+Drawer}}, and \mbox{\hyperlink{classTriangleDrawer_a1e2443d563aa66dfad208d649eb85d94}{Triangle\+Drawer}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Drawer.\+java\end{DoxyCompactItemize}

@@ -1,0 +1,114 @@
+\hypertarget{classTriangleDrawer}{}\doxysection{Triangle\+Drawer Class Reference}
+\label{classTriangleDrawer}\index{TriangleDrawer@{TriangleDrawer}}
+
+
+Inheritance diagram for Triangle\+Drawer\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=173pt]{classTriangleDrawer__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Triangle\+Drawer\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTriangleDrawer__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classTriangleDrawer_ae839dabec6b7a882319e9b15775f1a48}{Triangle\+Drawer}} (Pane pane)
+\item 
+void \mbox{\hyperlink{classTriangleDrawer_aa81c31e714741a92816fa7e456aad11f}{start\+Drawing}} (Mouse\+Event e)
+\item 
+void \mbox{\hyperlink{classTriangleDrawer_aecef1e17e7f19f05f5d63fb38fd55883}{continue\+Drawing}} (Mouse\+Event e)
+\item 
+void \mbox{\hyperlink{classTriangleDrawer_a1e2443d563aa66dfad208d649eb85d94}{stop\+Drawing}} (Mouse\+Event e)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classTriangleDrawer_ae3ea045cd1eafdfd5e054d2b837bd3c8}\label{classTriangleDrawer_ae3ea045cd1eafdfd5e054d2b837bd3c8}} 
+\mbox{\hyperlink{classMyTriangle}{My\+Triangle}} {\bfseries triangle} = null
+\item 
+\mbox{\Hypertarget{classTriangleDrawer_adbda5a9fe01b2778aba1db4ab805cfdc}\label{classTriangleDrawer_adbda5a9fe01b2778aba1db4ab805cfdc}} 
+double {\bfseries initialX}
+\item 
+\mbox{\Hypertarget{classTriangleDrawer_a38b5002764f2bb1c0b26efab366ec8ff}\label{classTriangleDrawer_a38b5002764f2bb1c0b26efab366ec8ff}} 
+double {\bfseries initialY}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+A class that represents a drawer of a triangle shape. This class extends the \mbox{\hyperlink{classDrawer}{Drawer}} class. This class is used to create a triangle shape on the drawing area. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classTriangleDrawer_ae839dabec6b7a882319e9b15775f1a48}\label{classTriangleDrawer_ae839dabec6b7a882319e9b15775f1a48}} 
+\index{TriangleDrawer@{TriangleDrawer}!TriangleDrawer@{TriangleDrawer}}
+\index{TriangleDrawer@{TriangleDrawer}!TriangleDrawer@{TriangleDrawer}}
+\doxysubsubsection{\texorpdfstring{TriangleDrawer()}{TriangleDrawer()}}
+{\footnotesize\ttfamily Triangle\+Drawer.\+Triangle\+Drawer (\begin{DoxyParamCaption}\item[{Pane}]{pane }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructor of the \mbox{\hyperlink{classTriangleDrawer}{Triangle\+Drawer}} class. With the given drawing area, the constructor initializes the drawing area. 
+\begin{DoxyParams}{Parameters}
+{\em pane} & The drawing area. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classTriangleDrawer_aecef1e17e7f19f05f5d63fb38fd55883}\label{classTriangleDrawer_aecef1e17e7f19f05f5d63fb38fd55883}} 
+\index{TriangleDrawer@{TriangleDrawer}!continueDrawing@{continueDrawing}}
+\index{continueDrawing@{continueDrawing}!TriangleDrawer@{TriangleDrawer}}
+\doxysubsubsection{\texorpdfstring{continueDrawing()}{continueDrawing()}}
+{\footnotesize\ttfamily void Triangle\+Drawer.\+continue\+Drawing (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Continue drawing a triangle when the mouse is dragged. 
+\begin{DoxyParams}{Parameters}
+{\em e} & The mouse event. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classDrawer}{Drawer}}.
+
+\mbox{\Hypertarget{classTriangleDrawer_aa81c31e714741a92816fa7e456aad11f}\label{classTriangleDrawer_aa81c31e714741a92816fa7e456aad11f}} 
+\index{TriangleDrawer@{TriangleDrawer}!startDrawing@{startDrawing}}
+\index{startDrawing@{startDrawing}!TriangleDrawer@{TriangleDrawer}}
+\doxysubsubsection{\texorpdfstring{startDrawing()}{startDrawing()}}
+{\footnotesize\ttfamily void Triangle\+Drawer.\+start\+Drawing (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Start drawing a triangle when the mouse is pressed. 
+\begin{DoxyParams}{Parameters}
+{\em e} & The mouse event. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classDrawer}{Drawer}}.
+
+\mbox{\Hypertarget{classTriangleDrawer_a1e2443d563aa66dfad208d649eb85d94}\label{classTriangleDrawer_a1e2443d563aa66dfad208d649eb85d94}} 
+\index{TriangleDrawer@{TriangleDrawer}!stopDrawing@{stopDrawing}}
+\index{stopDrawing@{stopDrawing}!TriangleDrawer@{TriangleDrawer}}
+\doxysubsubsection{\texorpdfstring{stopDrawing()}{stopDrawing()}}
+{\footnotesize\ttfamily void Triangle\+Drawer.\+stop\+Drawing (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Stop drawing a triangle when the mouse is released. 
+\begin{DoxyParams}{Parameters}
+{\em e} & The mouse event. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classDrawer}{Drawer}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Triangle\+Drawer.\+java\end{DoxyCompactItemize}
